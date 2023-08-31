@@ -1,0 +1,31 @@
+.custom-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+body{
+    background-image: url("images/business.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   }
+  .card {
+    transition: transform 0.3s ease;
+  }
+  .card:hover {
+    transform: scale(1.05); 
+  }
+
+  li{
+font-family: 'Satisfy', cursive;
+  }
+
+  .card-body-with-background {
+    background-image: url('images/card.avif');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center;
+}
